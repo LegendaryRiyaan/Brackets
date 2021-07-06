@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.picture{
+    width: 175px;
+    height: 200px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+#wel{
+    z-index: 10;
+    background: linear-gradient(blue 0%, red 100%);
+    height:800px;
+    width:100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 100px;
+}
+#bio{
+    padding-top: 50px;
+    font-size: 25px;
+    max-width: 650px;
+    margin-left: 450px;
+}
+.line{
+    height:6px;
+    width:70px;
+    margin: 8px auto;
+    background-color: black;
+}
+.menu{
+    z-index: 9;
+    list-style: none;
+    right: 40px;
+    top:10px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 25;
+    color:chartreuse;
+}
+.link{
+   float: left;
+    display: inline; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 9px
+}
+.link:hover{
+    background-color: cyan;
+}
